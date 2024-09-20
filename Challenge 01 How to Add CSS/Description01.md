@@ -54,3 +54,7 @@ In this challenge, you'll explore the three different ways to add CSS to an HTML
 </body>
 </html>
 ```
+
+#### Final Result: 
+
+![Challenge 1 Final Result Image](../Images/Challenge1Result.png)
