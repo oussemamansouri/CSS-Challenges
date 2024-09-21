@@ -31,4 +31,5 @@ Create a `div` and apply a background color using three different methods:
 
 ## Final Result:
 
-![Final Result Image](../Images/Challenge4Result.png)
+![Final Result Top Image](../Images/Challenge4ResultTop.png)
+![Final Result Bottom Image](../Images/Challenge4ResultBottom.png)
