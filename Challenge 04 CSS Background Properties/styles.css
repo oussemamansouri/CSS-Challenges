@@ -1,0 +1,63 @@
+/* Task 1: Background Color */
+.background-color-div {
+    height: 100px;
+    padding: 10px;
+    background-color: lightblue; /* Color name */
+    border: 2px solid #ff6347; /* HEX */
+    color: rgb(255, 255, 255); /* RGB */
+}
+
+/* Task 2: Opacity */
+.opacity-div {
+    background-color: red;
+    opacity: 0.5; /* Affects the entire div, including text */
+    padding: 20px;
+    color: white;
+    margin: 20px 0;
+}
+
+.rgba-div {
+    background-color: rgba(0, 128, 0, 0.5); /* RGBA for background transparency */
+    padding: 20px;
+    color: white;
+    margin: 20px 0;
+}
+
+/* Task 3 & 4: Background Image with Repeat and Position */
+.background-image-div {
+    background-image: url('background.jpg');
+    background-repeat: repeat-x; /* Repeat only horizontally */
+    background-position: center; /* Image centered */
+    height: 200px;
+    padding: 20px;
+    color: black;
+    margin: 20px 0;
+}
+
+/* Task 5: Background Attachment */
+.scroll-background-div {
+    background-image: url('scrolling.jpg');
+    background-attachment: scroll; /* Scrolls with the page */
+    height: 200px;
+    padding: 20px;
+    color: white;
+    margin: 20px 0;
+}
+
+.fixed-background-div {
+    background-image: url('fixed.jpg');
+    background-attachment: fixed; /* Remains fixed on scroll */
+    height: 200px;
+    padding: 20px;
+    color: white;
+    margin: 20px 0;
+}
+
+/* Task 6: Shorthand Background Property */
+.shorthand-background-div {
+    background: lightgreen url('shorthand.jpg') no-repeat fixed center;
+    height: 200px;
+    padding: 20px;
+    color: black;
+    margin: 20px 0;
+}
