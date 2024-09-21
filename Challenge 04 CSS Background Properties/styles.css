@@ -25,7 +25,7 @@
 
 /* Task 3 & 4: Background Image with Repeat and Position */
 .background-image-div {
-    background-image: url('background.jpg');
+    background-image: url(./images/background.png);
     background-repeat: repeat-x; /* Repeat only horizontally */
     background-position: center; /* Image centered */
     height: 200px;
@@ -36,7 +36,7 @@
 
 /* Task 5: Background Attachment */
 .scroll-background-div {
-    background-image: url('scrolling.jpg');
+    background-image: url(./images/background2.png);
     background-attachment: scroll; /* Scrolls with the page */
     height: 200px;
     padding: 20px;
@@ -45,7 +45,7 @@
 }
 
 .fixed-background-div {
-    background-image: url('fixed.jpg');
+    background-image: url(./images/background3.png);
     background-attachment: fixed; /* Remains fixed on scroll */
     height: 200px;
     padding: 20px;
@@ -55,7 +55,7 @@
 
 /* Task 6: Shorthand Background Property */
 .shorthand-background-div {
-    background: lightgreen url('shorthand.jpg') no-repeat fixed center;
+    background: lightgreen url(./images/background4.png) no-repeat fixed center;
     height: 200px;
     padding: 20px;
     color: black;
