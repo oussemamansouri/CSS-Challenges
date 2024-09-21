@@ -1,0 +1,30 @@
+/* Background color with a color name */
+div {
+    background-color: LightGray; /* Light gray background for better readability */
+    padding: 20px;
+}
+
+/* Text color using RGB */
+h1 {
+    color: rgb(0, 0, 128); /* Navy blue for strong contrast */
+}
+
+/* Paragraph color using HEX */
+p {
+    color: #ff4500; /* OrangeRed in HEX */
+}
+
+/* Background color using HSL */
+div {
+    background-color: hsl(200, 100%, 85%); /* Light sky blue */
+}
+
+/* Paragraph text using RGBA (50% opacity) */
+p {
+    color: rgba(255, 69, 0, 0.7); /* Semi-transparent OrangeRed */
+}
+
+/* Div background using HSLA (50% transparency) */
+div {
+    background-color: hsla(200, 100%, 40%, 0.5); /* Semi-transparent dark blue */
+}
