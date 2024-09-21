@@ -33,3 +33,6 @@ In this challenge, you'll practice using different methods to specify colors in 
 ### Solution Files:
 - `index.html` with external CSS for different color values and formats.
 - `styles.css` containing all the CSS styles for the challenge.
+
+#### Final Result:
+![Final Result Image](../Images/Challenge3Result.png)
