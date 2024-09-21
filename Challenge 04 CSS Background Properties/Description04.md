@@ -1,4 +1,4 @@
-# Challenge: CSS Background Properties
+# Challenge 04: CSS Background Properties
 
 ## Description:
 In this challenge, you'll explore and apply various CSS background properties. You will learn how to add background colors, images, control their repetition, set transparency, and use shorthand to apply multiple background properties at once.
