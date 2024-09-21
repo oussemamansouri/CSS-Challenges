@@ -28,3 +28,7 @@ Create a `div` and apply a background color using three different methods:
 
 ### 6. Shorthand Background Property
 - Use the CSS `background` shorthand to apply multiple properties (color, image, repeat, attachment, and position) in a single line.
+
+## Final Result:
+
+![Final Result Image](../Images/Challenge4Result.png)
