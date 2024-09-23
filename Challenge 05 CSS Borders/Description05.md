@@ -1,4 +1,4 @@
-# Challenge: CSS Borders
+# Challenge 05: CSS Borders
 
 ## Description:
 In this challenge, you will explore and apply various CSS border properties. You will learn how to set border styles, widths, colors, and use shorthand to combine multiple border properties.
@@ -42,3 +42,10 @@ Create a `div` and apply the following border styles:
 
 ## Bonus Task:
 - Try to create a circle or oval shape using the `border-radius` property.
+
+## Final Result:
+
+![Final Result image 1](../Images/Challenge5Result1.png)
+![Final Result image 2](../Images/Challenge5Result2.png)
+![Final Result image 3](../Images/Challenge5Result3.png)
+
