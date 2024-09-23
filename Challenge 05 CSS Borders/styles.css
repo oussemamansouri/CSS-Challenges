@@ -1,0 +1,117 @@
+/* Border Styles */
+.border-styles div {
+    padding: 10px;
+    margin: 10px;
+}
+
+.dotted-border {
+    border: 2px dotted black;
+}
+
+.dashed-border {
+    border: 2px dashed black;
+}
+
+.solid-border {
+    border: 2px solid black;
+}
+
+.double-border {
+    border: 4px double black;
+}
+
+.groove-border {
+    border: 4px groove black;
+}
+
+.ridge-border {
+    border: 4px ridge black;
+}
+
+.inset-border {
+    border: 4px inset black;
+}
+
+.outset-border {
+    border: 4px outset black;
+}
+
+/* Border Widths */
+.border-width div {
+    padding: 10px;
+    margin: 10px;
+    border: solid black;
+}
+
+.border-thin {
+    border-width: thin;
+}
+
+.border-medium {
+    border-width: medium;
+}
+
+.border-thick {
+    border-width: thick;
+}
+
+.custom-width {
+    border-width: 10px;
+}
+
+/* Border Colors */
+.border-color div {
+    padding: 10px;
+    margin: 10px;
+    border: solid;
+}
+
+.color-name {
+    border-color: red;
+}
+
+.hex-color {
+    border-color: #ff0000;
+}
+
+.rgb-color {
+    border-color: rgb(255, 0, 0);
+}
+
+.hsl-color {
+    border-color: hsl(0, 100%, 50%);
+}
+
+/* Border Sides */
+.sides-border {
+    border-style: dotted solid double dashed;
+    border-width: 3px;
+}
+
+/* Border Shorthand */
+.shorthand-border {
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Border Radius */
+.border-radius div {
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid black;
+}
+
+.rounded-corner {
+    border-radius: 15px;
+}
+
+.circle-shape {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    display: inline-block;
+    line-height: 100px;
+    text-align: center;
+}
