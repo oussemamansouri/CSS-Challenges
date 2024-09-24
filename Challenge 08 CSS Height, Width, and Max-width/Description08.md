@@ -1,4 +1,4 @@
-# Challenge: CSS Height, Width, and Max-width
+# Challenge 08: CSS Height, Width, and Max-width
 
 ## Description
 In this challenge, you will practice using CSS height, width, and max-width properties. You will understand how these properties influence the layout and responsiveness of elements on the page.
