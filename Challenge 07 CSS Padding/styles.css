@@ -1,0 +1,12 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    width: 300px;
+    padding: 25px 50px 75px 100px; /* Using shorthand property */
+    background-color: lightblue;
+    box-sizing: border-box; /* Ensures the total width stays 300px */
+    border: 2px solid black;
+}
