@@ -17,3 +17,7 @@ In this challenge, you will practice using CSS height, width, and max-width prop
 ## Bonus
 - Experiment with padding and margin for both `div` elements.
 - Add `min-height` and `min-width` properties to explore further control of the element size.
+
+## Final Result:
+
+![Final Result Image](../Images/Challenge8Result.png)
