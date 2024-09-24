@@ -22,3 +22,6 @@ In this challenge, you will practice using CSS padding properties to control the
 ## Bonus
 - Experiment with different units (e.g., `px`, `%`, `em`) for the padding values.
 - Adjust the padding dynamically based on the size of the container element.
+
+## Final Result:
+![Final Result Image](../Images/Challenge7Result.png)
