@@ -1,6 +1,6 @@
-# CSS Outline Challenge
+# Challenge 09: CSS Outline 
 
-### Objective
+## Objective
 In this challenge, you will explore the different types of outlines in CSS by applying various outline styles, colors, widths, and offsets to an HTML element. Your goal is to practice how outlines differ from borders and how they are used to make elements stand out.
 
 ### Instructions:
@@ -30,3 +30,7 @@ In this challenge, you will explore the different types of outlines in CSS by ap
 - Add a second `div` to show how outlines can overlap or affect surrounding content.
 
 Good luck, and make sure the element's outline stands out!
+
+### Final Result:
+
+![Final Result Image](../Images/Challenge9Result.png)
