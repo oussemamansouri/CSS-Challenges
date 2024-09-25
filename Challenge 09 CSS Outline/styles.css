@@ -1,0 +1,28 @@
+/* Styles for solid outline */
+.outline-solid {
+    outline-style: solid;    /* Solid outline */
+    outline-color: red;      /* Red color for the outline */
+    outline-width: 5px;      /* Width of 5px for the outline */
+    outline-offset: 10px;    /* Offset of 10px between outline and border */
+}
+
+/* Styles for dotted outline */
+.outline-dotted {
+    outline-style: dotted;   /* Dotted outline */
+    outline-color: blue;     /* Blue color for the outline */
+    outline-width: 4px;      /* Width of 4px for the outline */
+    outline-offset: 8px;     /* Offset of 8px between outline and border */
+}
+
+/* Styles for groove outline */
+.outline-groove {
+    outline-style: groove;   /* Grooved outline */
+    outline-color: green;    /* Green color for the outline */
+    outline-width: 6px;      /* Width of 6px for the outline */
+    outline-offset: 12px;    /* Offset of 12px between outline and border */
+}
+
+/* General container styling */
+.container {
+    margin: 60px;            /* Margin to create space around the divs */
+}
