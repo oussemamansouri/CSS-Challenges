@@ -1,10 +1,13 @@
 /* External CSS */
+
+/* Applies a background color and font style to the entire page */
 body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background color for the body */
+    font-family: Arial, sans-serif; /* Use Arial or any sans-serif font as a fallback */
 }
 
+/* Styles all <p> (paragraph) elements */
 p {
-    font-size: 16px;
-    color: #333;
+    font-size: 16px; /* Set the font size of paragraph text to 16px */
+    color: #333; /* Set the text color to dark gray (#333) */
 }
