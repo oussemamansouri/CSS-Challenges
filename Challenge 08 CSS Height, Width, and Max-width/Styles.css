@@ -1,25 +1,27 @@
-/* styles.css */
+/* Set the default font for the body to Arial or a sans-serif alternative */
 body {
     font-family: Arial, sans-serif;
 }
 
+/* Style for a fixed-width container */
 .fixed-width {
-    width: 500px;
-    height: 150px;
-    background-color: lightcoral;
-    color: white;
-    padding: 10px;
-    border: 2px solid black;
-    margin: 10px 0;
+    width: 500px;                /* Set a fixed width of 500px */
+    height: 150px;               /* Set a fixed height of 150px */
+    background-color: lightcoral; /* Set a light coral background color */
+    color: white;                /* Set the text color to white */
+    padding: 10px;               /* Add 10px of padding inside the element */
+    border: 2px solid black;     /* Apply a solid black border of 2px */
+    margin: 10px 0;              /* Add a 10px vertical margin (top and bottom) */
 }
 
+/* Style for a responsive-width container */
 .responsive-width {
-    max-width: 500px;
-    height: 150px;
-    background-color: lightseagreen;
-    color: white;
-    padding: 10px;
-    border: 2px solid black;
-    margin: 10px 0;
-    box-sizing: border-box;
+    max-width: 500px;            /* Set the maximum width to 500px (responsive) */
+    height: 150px;               /* Set a fixed height of 150px */
+    background-color: lightseagreen; /* Set a light sea green background color */
+    color: white;                /* Set the text color to white */
+    padding: 10px;               /* Add 10px of padding inside the element */
+    border: 2px solid black;     /* Apply a solid black border of 2px */
+    margin: 10px 0;              /* Add a 10px vertical margin (top and bottom) */
+    box-sizing: border-box;      /* Ensure that padding and border are included in the element's total width and height */
 }
