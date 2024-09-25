@@ -1,12 +1,17 @@
-/* styles.css */
+/* Set the default font for the body to Arial or a sans-serif alternative */
 body {
     font-family: Arial, sans-serif;
 }
 
+/* Style for a box element */
 .box {
-    width: 300px;
-    padding: 25px 50px 75px 100px; /* Using shorthand property */
-    background-color: lightblue;
-    box-sizing: border-box; /* Ensures the total width stays 300px */
-    border: 2px solid black;
+    width: 300px;                          /* Set a fixed width of 300px */
+    padding: 25px 50px 75px 100px;         /* Apply padding: 
+                                               top: 25px,
+                                               right: 50px,
+                                               bottom: 75px,
+                                               left: 100px (using shorthand) */
+    background-color: lightblue;           /* Set a light blue background color */
+    box-sizing: border-box;                /* Ensure padding and border are included within the 300px width */
+    border: 2px solid black;               /* Apply a solid black border of 2px */
 }
