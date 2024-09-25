@@ -1,117 +1,122 @@
-/* Border Styles */
+/* General styles for all div elements inside .border-styles */
 .border-styles div {
-    padding: 10px;
-    margin: 10px;
+    padding: 10px;    /* Add 10px of padding inside each div */
+    margin: 10px;     /* Add 10px of margin outside each div */
 }
 
+/* Different border styles */
 .dotted-border {
-    border: 2px dotted black;
+    border: 2px dotted black; /* 2px dotted border */
 }
 
 .dashed-border {
-    border: 2px dashed black;
+    border: 2px dashed black; /* 2px dashed border */
 }
 
 .solid-border {
-    border: 2px solid black;
+    border: 2px solid black;  /* 2px solid border */
 }
 
 .double-border {
-    border: 4px double black;
+    border: 4px double black; /* 4px double border */
 }
 
 .groove-border {
-    border: 4px groove black;
+    border: 4px groove black; /* 4px groove border (3D effect) */
 }
 
 .ridge-border {
-    border: 4px ridge black;
+    border: 4px ridge black;  /* 4px ridge border (3D effect) */
 }
 
 .inset-border {
-    border: 4px inset black;
+    border: 4px inset black;  /* 4px inset border (3D effect) */
 }
 
 .outset-border {
-    border: 4px outset black;
+    border: 4px outset black; /* 4px outset border (3D effect) */
 }
 
-/* Border Widths */
+/* General styles for all div elements inside .border-width */
 .border-width div {
-    padding: 10px;
-    margin: 10px;
-    border: solid black;
+    padding: 10px;           /* Add 10px of padding inside each div */
+    margin: 10px;            /* Add 10px of margin outside each div */
+    border: solid black;     /* Apply a solid black border */
 }
 
+/* Different border widths */
 .border-thin {
-    border-width: thin;
+    border-width: thin;      /* Thin border width (typically 1px) */
 }
 
 .border-medium {
-    border-width: medium;
+    border-width: medium;    /* Medium border width (typically 3px) */
 }
 
 .border-thick {
-    border-width: thick;
+    border-width: thick;     /* Thick border width (typically 5px) */
 }
 
 .custom-width {
-    border-width: 10px;
+    border-width: 10px;      /* Custom border width of 10px */
 }
 
-/* Border Colors */
+/* General styles for all div elements inside .border-color */
 .border-color div {
-    padding: 10px;
-    margin: 10px;
-    border: solid;
+    padding: 10px;           /* Add 10px of padding inside each div */
+    margin: 10px;            /* Add 10px of margin outside each div */
+    border: solid;           /* Apply a solid border */
 }
 
+/* Different ways to define border colors */
 .color-name {
-    border-color: red;
+    border-color: red;       /* Use color name (red) */
 }
 
 .hex-color {
-    border-color: #ff0000;
+    border-color: #ff0000;   /* Use HEX value (#ff0000) */
 }
 
 .rgb-color {
-    border-color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0); /* Use RGB value (red) */
 }
 
 .hsl-color {
-    border-color: hsl(0, 100%, 50%);
+    border-color: hsl(0, 100%, 50%); /* Use HSL value (red) */
 }
 
-/* Border Sides */
+/* Styling borders for individual sides */
 .sides-border {
-    border-style: dotted solid double dashed;
-    border-width: 3px;
+    border-style: dotted solid double dashed; /* Different styles for top, right, bottom, and left borders */
+    border-width: 3px;        /* 3px width for all borders */
 }
 
-/* Border Shorthand */
+/* Shorthand property for border */
 .shorthand-border {
-    border: 5px solid blue;
-    padding: 10px;
-    margin: 10px;
+    border: 5px solid blue;    /* Shorthand to define border width, style, and color */
+    padding: 10px;             /* Add 10px of padding inside the element */
+    margin: 10px;              /* Add 10px of margin outside the element */
 }
 
-/* Border Radius */
+/* General styles for all div elements inside .border-radius */
 .border-radius div {
-    padding: 20px;
-    margin: 10px;
-    border: 3px solid black;
+    padding: 20px;             /* Add 20px of padding inside each div */
+    margin: 10px;              /* Add 10px of margin outside each div */
+    border: 3px solid black;   /* Apply a solid black border of 3px */
 }
 
+/* Rounded corners for the element */
 .rounded-corner {
-    border-radius: 15px;
+    border-radius: 15px;       /* Add rounded corners with a radius of 15px */
 }
 
+/* Create a circular shape */
 .circle-shape {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    background-color: lightblue;
-    display: inline-block;
-    line-height: 100px;
-    text-align: center;
+    border-radius: 50%;        /* Set border-radius to 50% to create a circle */
+    width: 100px;              /* Set a width of 100px */
+    height: 100px;             /* Set a height of 100px */
+    background-color: lightblue; /* Set background color to light blue */
+    display: inline-block;     /* Ensure the element behaves like a block within inline content */
+    line-height: 100px;        /* Center the text vertically by matching the line height to the element's height */
+    text-align: center;        /* Center the text horizontally */
 }
