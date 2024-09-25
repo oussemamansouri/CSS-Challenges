@@ -1,46 +1,49 @@
-/* General Styles */
+/* General Styles for the document */
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
+    font-family: Arial, sans-serif;   /* Set the default font to Arial or sans-serif */
+    padding: 20px;                   /* Add 20px of padding around the body */
 }
 
 h1 {
-    margin-bottom: 50px;
+    margin-bottom: 50px;              /* Add a 50px margin below the h1 element */
 }
 
 h2 {
-    margin-top: 20px;
+    margin-top: 20px;                 /* Add a 20px margin above the h2 element */
 }
 
-/* Task 1: Individual Margins */
+/* Task 1: Styling with Individual Margins */
 .individual-margins {
-    background-color: lightblue;
-    margin-top: 30px;
-    margin-right: 50px;
-    margin-bottom: 40px;
-    margin-left: 60px;
-    padding: 10px;
+    background-color: lightblue;      /* Set a light blue background color */
+    margin-top: 30px;                 /* Add 30px of margin above the element */
+    margin-right: 50px;               /* Add 50px of margin to the right */
+    margin-bottom: 40px;              /* Add 40px of margin below the element */
+    margin-left: 60px;                /* Add 60px of margin to the left */
+    padding: 10px;                    /* Add 10px of padding inside the element */
 }
 
-/* Task 2: Margin Shorthand */
+/* Task 2: Styling with Margin Shorthand */
 .shorthand-margin {
-    background-color: lightcoral;
-    margin: 20px 40px 60px;
-    padding: 10px;
+    background-color: lightcoral;     /* Set a light coral background color */
+    margin: 20px 40px 60px;           /* Apply shorthand margin: 
+                                          top: 20px, 
+                                          right & left: 40px, 
+                                          bottom: 60px */
+    padding: 10px;                    /* Add 10px of padding inside the element */
 }
 
-/* Task 3: Negative Margins */
+/* Task 3: Using Negative Margins */
 .negative-margin {
-    background-color: lightgreen;
-    margin-top: -20px;
-    margin-bottom: -30px;
-    padding: 10px;
+    background-color: lightgreen;     /* Set a light green background color */
+    margin-top: -20px;                /* Shift the element 20px upwards */
+    margin-bottom: -30px;             /* Shift the next element upwards by 30px */
+    padding: 10px;                    /* Add 10px of padding inside the element */
 }
 
 /* Task 4: Centering an Element */
 .centered-element {
-    background-color: lightgoldenrodyellow;
-    width: 300px;
-    margin: 0 auto;
-    padding: 10px;
+    background-color: lightgoldenrodyellow; /* Set a light goldenrod yellow background color */
+    width: 300px;                           /* Set a fixed width of 300px */
+    margin: 0 auto;                         /* Center the element horizontally */
+    padding: 10px;                          /* Add 10px of padding inside the element */
 }
