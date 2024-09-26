@@ -1,0 +1,17 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the box element */
+.box {
+    width: 320px; /* Content width */
+    height: 50px; /* Content height */
+    padding: 20px; /* Padding around the content */
+    border: 5px solid #333; /* Border around the element */
+    margin: 20px; /* Margin outside the border */
+    background-color: #f0f0f0; /* Light background color */
+    
+    /* The box-sizing set to content-box ensures the width/height applies to the content area only */
+    box-sizing: content-box;
+}
