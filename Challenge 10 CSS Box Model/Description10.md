@@ -25,3 +25,7 @@ Given a `div` with:
 
 Calculate the total width and height, and display the result below the `div`.
 
+## Final Result:
+
+![Final Result Image](../Images/Challenge10Result.png)
+
