@@ -1,10 +1,10 @@
 # Challenge 11: CSS Text Styling
 
-## Description
+## Description:
 
 In this challenge, you will work with various CSS properties for formatting text. You will explore how to style text using color, alignment, decoration, transformation, spacing, and shadows.
 
-## Instructions
+## Instructions:
 
 1. Create an HTML file with a paragraph of text.
 2. Style the text using the following CSS properties:
@@ -17,7 +17,7 @@ In this challenge, you will work with various CSS properties for formatting text
    - **Line height**: Adjust the space between lines of text.
    - **Text shadow**: Add a shadow effect to the text.
 
-## Example
+## Example:
 
 Create a paragraph that:
 - Has red text.
@@ -27,3 +27,7 @@ Create a paragraph that:
 - Includes 5px spacing between characters and 10px between words.
 - Has 1.5 line-height.
 - Has a subtle shadow effect.
+
+## Final Result:
+
+![Final Result Image](../Images/Challenge11Result.png)
