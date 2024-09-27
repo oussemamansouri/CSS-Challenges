@@ -1,0 +1,62 @@
+/* General styles for the body */
+body {
+    font-family: 'Roboto', sans-serif; /* Default font */
+    line-height: 1.6; /* Increases readability by adjusting line height */
+    margin: 20px; /* Adds margin around the body */
+    background-color: #f4f4f4; /* Light grey background for the page */
+    color: #333; /* Default text color (dark grey) */
+  }
+  
+  /* Styling for the header */
+  header h1 {
+    font-size: 2.5em; /* Large font size for the main heading */
+    text-align: center; /* Centers the heading */
+    margin-bottom: 0.5em; /* Adds space below the heading */
+  }
+  
+  /* General section styles */
+  section {
+    margin-bottom: 2em; /* Adds space between sections */
+  }
+  
+  /* Styling for all h2 headings */
+  h2 {
+    color: #007BFF; /* Blue color for subheadings */
+    margin-bottom: 0.5em; /* Adds space below subheadings */
+  }
+  
+  /* List styling */
+  ul {
+    list-style-type: square; /* Use square bullets */
+    margin-left: 20px; /* Indents the list */
+  }
+  
+  /* Font size for paragraphs and list items */
+  p, li {
+    font-size: 1.2em; /* Slightly larger text for better readability */
+  }
+  
+  /* Table styles for font examples */
+  table {
+    width: 100%; /* Full-width table */
+    border-collapse: collapse; /* Ensures table borders don't double up */
+    margin-top: 1em; /* Adds space above the table */
+  }
+  
+  th, td {
+    padding: 10px; /* Adds padding inside table cells */
+    text-align: left; /* Aligns text to the left */
+    border-bottom: 1px solid #ddd; /* Adds a light border below rows */
+  }
+  
+  /* Styling for table headers */
+  th {
+    background-color: #f2f2f2; /* Light grey background for table header */
+    font-weight: bold; /* Makes the header text bold */
+  }
+  
+  /* Adds a hover effect for table rows */
+  tr:hover {
+    background-color: #f1f1f1; /* Light grey background on hover */
+  }
+  
