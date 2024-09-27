@@ -160,3 +160,10 @@ font: font-style font-variant font-weight font-size/line-height font-family;
 - `font-variant`: Specifies small-caps font.
 - `font-weight`: Specifies the weight of a font.
 
+## Final Result:
+
+![Final Result Image 1](../Images/Challenge12Result1.png)
+![Final Result Image 2](../Images/Challenge12Result2.png)
+![Final Result Image 3](../Images/Challenge12Result3.png)
+![Final Result Image 4](../Images/Challenge12Result4.png)
+![Final Result Image 5](../Images/Challenge12Result5.png)
