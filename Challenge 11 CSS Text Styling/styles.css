@@ -1,0 +1,16 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the paragraph text */
+.styled-text {
+    color: rgb(255, 0, 0); /* Set text color to red */
+    text-align: center; /* Center-align the text */
+    text-decoration: underline overline; /* Add underline and overline */
+    text-transform: capitalize; /* Capitalize the first letter of each word */
+    letter-spacing: 5px; /* Increase the space between characters */
+    word-spacing: 10px; /* Increase the space between words */
+    line-height: 1.5; /* Set line height */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
