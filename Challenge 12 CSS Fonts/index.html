@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Fonts</title>
+  
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Link to Google Fonts (Roboto and Open Sans) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header section with main title and introduction -->
+  <header>
+    <h1>CSS Fonts</h1>
+    <p>Choosing the right font for your website is important!</p>
+  </header>
+
+  <!-- Section about font selection importance -->
+  <section>
+    <h2>Font Selection is Important</h2>
+    <p>Choosing the right font has a huge impact on how readers experience a website.</p>
+    <p>The right font can create a strong identity for your brand. Using a font that is easy to read is important as it adds value to your text. It's also important to choose the correct color and text size for the font.</p>
+  </section>
+
+  <!-- Section about generic font families in CSS -->
+  <section>
+    <h2>Generic Font Families</h2>
+    <p>In CSS, there are five generic font families:</p>
+    <ul>
+      <!-- List of font families with descriptions -->
+      <li><strong>Serif</strong>: Fonts with a small stroke at the edges of each letter. They create a sense of formality and elegance.</li>
+      <li><strong>Sans-serif</strong>: Fonts with clean lines (no small strokes). They create a modern and minimalistic look.</li>
+      <li><strong>Monospace</strong>: All letters have the same fixed width. They create a mechanical look.</li>
+      <li><strong>Cursive</strong>: Fonts that imitate human handwriting.</li>
+      <li><strong>Fantasy</strong>: Decorative/playful fonts.</li>
+    </ul>
+    <p><strong>Note</strong>: On computer screens, sans-serif fonts are considered easier to read than serif fonts.</p>
+  </section>
+
+  <!-- Section providing examples of font names within each generic family -->
+  <section>
+    <h2>Some Font Examples</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Generic Font Family</th>
+          <th>Examples of Font Names</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Row for Serif fonts -->
+        <tr>
+          <td>Serif</td>
+          <td>Times New Roman, Georgia, Garamond</td>
+        </tr>
+        <!-- Row for Sans-serif fonts -->
+        <tr>
+          <td>Sans-serif</td>
+          <td>Arial, Verdana, Helvetica</td>
+        </tr>
+        <!-- Row for Monospace fonts -->
+        <tr>
+          <td>Monospace</td>
+          <td>Courier New, Lucida Console, Monaco</td>
+        </tr>
+        <!-- Row for Cursive fonts -->
+        <tr>
+          <td>Cursive</td>
+          <td>Brush Script MT, Lucida Handwriting</td>
+        </tr>
+        <!-- Row for Fantasy fonts -->
+        <tr>
+          <td>Fantasy</td>
+          <td>Copperplate, Papyrus</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Section about the CSS font-family property -->
+  <section>
+    <h2>The CSS <code>font-family</code> Property</h2>
+    <p>In CSS, the <code>font-family</code> property is used to specify the font of text.</p>
+    <p><strong>Note</strong>: If the font name is more than one word, it must be in quotation marks, like <code>"Times New Roman"</code>.</p>
+  </section>
+
+  <!-- Section explaining font fallback system -->
+  <section>
+    <h2>Font Fallback</h2>
+    <p>The <code>font-family</code> property should list several font names as a "fallback" system to ensure compatibility between browsers and operating systems. Start with the desired font and end with a generic family (e.g., sans-serif) in case none of the specified fonts are available.</p>
+  </section>
+
+  <!-- Section listing web-safe fonts -->
+  <section>
+    <h2>Web Safe Fonts</h2>
+    <ul>
+      <li><strong>Arial</strong> (sans-serif)</li>
+      <li><strong>Verdana</strong> (sans-serif)</li>
+      <li><strong>Tahoma</strong> (sans-serif)</li>
+      <li><strong>Trebuchet MS</strong> (sans-serif)</li>
+      <li><strong>Times New Roman</strong> (serif)</li>
+      <li><strong>Georgia</strong> (serif)</li>
+      <li><strong>Garamond</strong> (serif)</li>
+      <li><strong>Courier New</strong> (monospace)</li>
+      <li><strong>Brush Script MT</strong> (cursive)</li>
+    </ul>
+  </section>
+
+  <!-- Section about CSS font-style property -->
+  <section>
+    <h2>CSS Font Style</h2>
+    <p>The <code>font-style</code> property specifies how text is styled. It has three values:</p>
+    <ul>
+      <li><code>normal</code>: Text is shown normally.</li>
+      <li><code>italic</code>: Text is shown in italics.</li>
+      <li><code>oblique</code>: Text is leaning (similar to italic but less supported).</li>
+    </ul>
+  </section>
+
+  <!-- Section about font-weight property -->
+  <section>
+    <h2>Font Weight</h2>
+    <p>The <code>font-weight</code> property specifies the weight (thickness) of a font.</p>
+  </section>
+
+  <!-- Section explaining font-variant property for small-caps -->
+  <section>
+    <h2>Font Variant</h2>
+    <p>The <code>font-variant</code> property specifies whether or not text should be displayed in <strong>small-caps</strong>.</p>
+  </section>
+
+  <!-- Section about font-size property in CSS -->
+  <section>
+    <h2>CSS Font Size</h2>
+    <p>The <code>font-size</code> property sets the size of the text. Font size can be <strong>absolute</strong> or <strong>relative</strong>.</p>
+    <ul>
+      <li><strong>Absolute Size</strong>: Sets the text to a specified size.</li>
+      <li><strong>Relative Size</strong>: Sets the size relative to surrounding elements.</li>
+    </ul>
+    <p>To allow users to resize text, many developers use <code>em</code> instead of <code>px</code>. <br> Example: 1em = 16px (default size).</p>
+  </section>
+
+  <!-- Section explaining responsive font size using vw unit -->
+  <section>
+    <h2>Responsive Font Size</h2>
+    <p>The text size can be set with a <code>vw</code> unit, which means the "viewport width." 1vw = 1% of the viewport width.</p>
+  </section>
+
+  <!-- Section introducing Google Fonts -->
+  <section>
+    <h2>Google Fonts</h2>
+    <p>Google Fonts are free to use and provide over 1,000 fonts to choose from.</p>
+  </section>
+</body>
+</html>
