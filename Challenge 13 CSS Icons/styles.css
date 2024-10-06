@@ -1,0 +1,12 @@
+/* solution.css */
+i, .glyphicon, .material-icons {
+    font-size: 40px;
+    color: teal;
+    margin: 10px;
+}
+
+i:hover, .glyphicon:hover, .material-icons:hover {
+    color: darkorange;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
