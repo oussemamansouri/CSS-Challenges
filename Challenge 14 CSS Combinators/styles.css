@@ -1,0 +1,19 @@
+/* Descendant selector - all <p> inside <div> */
+div p {
+    background-color: yellow;
+}
+
+/* Child selector - direct <p> children of <div> */
+div > p {
+    background-color: lightblue;
+}
+
+/* Adjacent sibling selector - first <p> immediately after <div> */
+div + p {
+    background-color: lightgreen;
+}
+
+/* General sibling selector - all <p> siblings of <div> */
+div ~ p {
+    background-color: lightcoral;
+}
