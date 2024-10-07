@@ -20,3 +20,6 @@ In this challenge, you will practice using different CSS combinators to style el
 - Style the direct child `p` elements of the `div` (child selector) with a **light blue** background.
 - Style the first `p` element immediately following the `div` (adjacent sibling selector) with a **light green** background.
 - Style all `p` elements that are siblings of the `div` (general sibling selector) with a **light coral** background.
+
+## Final Result:
+![Final Result Image](../Images/Challenge14Result.png)
