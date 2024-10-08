@@ -1,0 +1,29 @@
+/* Styling links */
+a:link {
+    color: green;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+
+/* Styling input focus */
+input:focus {
+    border: 2px solid orange;
+}
+
+/* Styling first child paragraph */
+.container p:first-child {
+    color: blue;
+}
+
+/* Styling odd list items */
+ul li:nth-child(odd) {
+    background-color: lightgray;
+}
