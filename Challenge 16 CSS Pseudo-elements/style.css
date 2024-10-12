@@ -1,0 +1,23 @@
+/* Style the first letter of the paragraph with class "intro" */
+p.intro::first-letter {
+    color: #ff0000; /* Red color */
+    font-size: xx-large; /* Extra large font size */
+}
+
+/* Style the first line of all paragraphs */
+p::first-line {
+    color: #0000ff; /* Blue color */
+    font-variant: small-caps; /* Display text in small caps */
+}
+
+/* Insert "Welcome: " before every <h1> element */
+h1::before {
+    content: "Welcome: ";
+    font-weight: bold; /* Bold the inserted text */
+}
+
+/* Style the selected text within paragraphs */
+::selection {
+    color: red; /* Red text color when selected */
+    background: yellow; /* Yellow background when selected */
+}
