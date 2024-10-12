@@ -25,10 +25,11 @@ In this challenge, you'll practice using CSS pseudo-elements to style specific p
 <p>This is another paragraph to apply the pseudo-elements on!</p>
 ```
 ## Expected Outcome:
-
 - The first letter of the `.intro` paragraph should appear larger and red.
 - The first line of all paragraphs should be blue and in small-caps.
 - A "Welcome: " text should appear before every `<h1>` element.
 - When any text within a paragraph is selected, the selected text should have a red font color and yellow background.
 
+## Final Result:
+![Final Result Image](../Images/Challenge16Result.jpg)
 Good luck!
