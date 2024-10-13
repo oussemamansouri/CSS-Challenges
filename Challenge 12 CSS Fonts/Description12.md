@@ -167,3 +167,10 @@ font: font-style font-variant font-weight font-size/line-height font-family;
 ![Final Result Image 3](../Images/Challenge12Result3.png)
 ![Final Result Image 4](../Images/Challenge12Result4.png)
 ![Final Result Image 5](../Images/Challenge12Result5.png)
+
+---
+
+### Solution
+
+- [HTML Solution](./index.html)
+- [CSS Solution](./styles.css)
