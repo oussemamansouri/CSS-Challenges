@@ -1,0 +1,43 @@
+/* 1. Select all <a> elements with a target attribute */
+a[target] {
+    background-color: yellow;
+}
+
+/* 2. Select <a> elements with target="_blank" */
+a[target="_blank"] {
+    background-color: yellow;
+}
+
+/* 3. Select elements with title containing "flower" */
+[title~="flower"] {
+    border: 5px solid yellow;
+}
+
+/* 4. Select elements with class starting with "top" */
+[class^="top"] {
+    background-color: yellow;
+}
+
+/* 5. Select elements with class ending with "test" */
+[class$="test"] {
+    background-color: yellow;
+}
+
+/* 6. Select elements with class containing "te" */
+[class*="te"] {
+    background-color: yellow;
+}
+
+/* 7. Styling forms */
+input[type="text"] {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: yellow;
+}
+
+input[type="button"] {
+    width: 120px;
+    margin-left: 35px;
+    display: block;
+}
