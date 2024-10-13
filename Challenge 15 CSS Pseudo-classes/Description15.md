@@ -60,3 +60,10 @@ In this challenge, you will use CSS pseudo-classes to style elements based on th
 ```
 ## Final Result:
 ![Final Result Image](../Images/Challenge15Result.png)
+
+---
+
+### Solution
+
+- [HTML Solution](./solution15.html)
+- [CSS Solution](./style.css)
