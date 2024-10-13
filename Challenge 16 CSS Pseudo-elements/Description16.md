@@ -32,4 +32,12 @@ In this challenge, you'll practice using CSS pseudo-elements to style specific p
 
 ## Final Result:
 ![Final Result Image](../Images/Challenge16Result.jpg)
+
+---
+
+### Solution
+
+- [HTML Solution](./solution16.html)
+- [CSS Solution](./style.css)
+
 Good luck!
