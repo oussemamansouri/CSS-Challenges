@@ -23,3 +23,10 @@ In this challenge, you will practice using different CSS combinators to style el
 
 ## Final Result:
 ![Final Result Image](../Images/Challenge14Result.png)
+
+---
+
+### Solution
+
+- [HTML Solution](./solution.html)
+- [CSS Solution](./styles.css)
