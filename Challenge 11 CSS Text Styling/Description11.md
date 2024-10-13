@@ -31,3 +31,10 @@ Create a paragraph that:
 ## Final Result:
 
 ![Final Result Image](../Images/Challenge11Result.png)
+
+---
+
+### Solution
+
+- [HTML Solution](./index.html)
+- [CSS Solution](./styles.css)
