@@ -36,3 +36,10 @@ In this challenge, you'll practice using different methods to specify colors in 
 
 #### Final Result:
 ![Final Result Image](../Images/Challenge3Result.png)
+
+---
+
+### Solution
+
+- [HTML Solution](./index.html)
+- [CSS Solution](./styles.css)
