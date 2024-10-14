@@ -25,3 +25,10 @@ In this challenge, you will practice using CSS padding properties to control the
 
 ## Final Result:
 ![Final Result Image](../Images/Challenge7Result.png)
+
+---
+
+### Solution
+
+- [HTML Solution](./index.html)
+- [CSS Solution](./styles.css)
