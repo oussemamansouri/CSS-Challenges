@@ -31,4 +31,11 @@ In this challenge, you will explore the various outline properties in CSS, inclu
 
 ![Final Result Image](../Images/Challenge9Result.png)
 
+---
+
+### Solution
+
+- [HTML Solution](./index.html)
+- [CSS Solution](./styles.css)
+
 Good luck, and have fun experimenting with the power of CSS outlines!
