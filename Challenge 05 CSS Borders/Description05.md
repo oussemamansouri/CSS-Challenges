@@ -49,3 +49,9 @@ Create a `div` and apply the following border styles:
 ![Final Result image 2](../Images/Challenge5Result2.png)
 ![Final Result image 3](../Images/Challenge5Result3.png)
 
+---
+
+### Solution
+
+- [HTML Solution](./index.html)
+- [CSS Solution](./styles.css)
