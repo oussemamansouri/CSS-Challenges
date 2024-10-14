@@ -35,3 +35,10 @@ In this challenge, you'll practice using the CSS margin properties to create spa
 
 ## Final Result:
 ![Final Result Image](../Images/Challenge6Result.png)
+
+---
+
+### Solution
+
+- [HTML Solution](./index.html)
+- [CSS Solution](./styles.css)
