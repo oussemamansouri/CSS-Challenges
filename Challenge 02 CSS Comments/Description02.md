@@ -35,3 +35,9 @@ In this challenge, you will practice adding comments in both HTML and CSS. Comme
 
 ![Challenge 2 Image Result](../Images/Challenge2Result.png)
 
+---
+
+### Solution
+
+- [Solution](./index.html)
+
