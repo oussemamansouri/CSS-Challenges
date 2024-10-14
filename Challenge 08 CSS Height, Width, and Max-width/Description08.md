@@ -21,3 +21,10 @@ In this challenge, you will practice using CSS height, width, and max-width prop
 ## Final Result:
 
 ![Final Result Image](../Images/Challenge8Result.png)
+
+---
+
+### Solution
+
+- [HTML Solution](./index.html)
+- [CSS Solution](./styles.css)
