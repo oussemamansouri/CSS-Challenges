@@ -29,3 +29,9 @@ Calculate the total width and height, and display the result below the `div`.
 
 ![Final Result Image](../Images/Challenge10Result.png)
 
+---
+
+### Solution
+
+- [HTML Solution](./index.html)
+- [CSS Solution](./styles.css)
