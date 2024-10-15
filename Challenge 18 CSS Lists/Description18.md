@@ -22,7 +22,8 @@ In this challenge, you'll create two lists and customize them using CSS properti
 
 - Add custom hover effects to change the text color of list items when hovered.
 
-
+## Final Result:
+![Final Result Image](../Images/Challenge18Result.png)
 
 ---
 
