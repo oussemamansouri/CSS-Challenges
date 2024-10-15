@@ -1,0 +1,49 @@
+/* Unordered list styles */
+.custom-ul {
+    /* Use a square as the list item marker */
+    list-style-type: square;
+    /* Set the list item markers outside the list items */
+    list-style-position: outside;
+    /* Add a background color and padding for the entire list */
+    background: #b9d8f3;
+    padding: 15px;
+}
+
+/* Styling for each list item in the unordered list */
+.custom-ul li {
+    /* Set the text color for list items */
+    color: #333;
+    /* Use a custom image as the list marker */
+    list-style-image: url('custom-marker.png');
+}
+
+/* Hover effect for unordered list items */
+.custom-ul li:hover {
+    /* Change the text color when hovering over the list item */
+    color: #0066cc;
+}
+
+/* Ordered list styles */
+.custom-ol {
+    /* Use lower-alpha letters as the list item marker */
+    list-style-type: lower-alpha;
+    /* Set the list item markers inside the list items */
+    list-style-position: inside;
+    /* Add a background color and padding for the entire list */
+    background: #cdcdce;
+    padding: 15px;
+}
+
+/* Styling for each list item in the ordered list */
+.custom-ol li {
+    /* Set a light background color for each list item */
+    background: #fefae0;
+    /* Set the text color for list items */
+    color: #663300;
+}
+
+/* Hover effect for ordered list items */
+.custom-ol li:hover {
+    /* Change the text color when hovering over the list item */
+    color: #cc3300;
+}
