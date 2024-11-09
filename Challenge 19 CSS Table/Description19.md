@@ -25,5 +25,9 @@ In this challenge, your task is to style a table using various CSS properties to
 - Use `nth-child` selector for zebra-striping.
 - Add a container with `overflow-x: auto` for responsiveness.
 
+## Final Result:
+![Final Result Image](../Images/Challenge19Result.png)
+
+---
 
 Happy Coding!
