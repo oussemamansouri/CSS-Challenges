@@ -1,0 +1,43 @@
+/* Style the table container to allow horizontal scrolling on smaller screens */
+.table-container {
+    overflow-x: auto;
+  }
+
+/* Style for the table caption */
+.caption {
+    font-size: 24px; /* Set the font size to 24px for larger text */
+    font-family: 'Times New Roman', Times, serif; /* Use a serif font for a classic look */
+    font-weight: bold; /* Make the caption text bold */
+    padding: 15px; /* Add padding around the caption for spacing */
+  }
+  
+  /* Style the table to span the full width of the container */
+  table {
+    width: 100%;
+    /* Collapse borders to remove double border effect */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Add borders to the table, header, and data cells */
+  table, th, td {
+    border: 1px solid #333; /* Solid dark border for all table elements */
+  }
+  
+  /* Center-align text in the table header and data cells */
+  th, td {
+    text-align: center; /* Center align horizontally */
+    padding: 12px;      /* Add padding for space between text and borders */
+    vertical-align: middle; /* Align text vertically in the middle */
+  }
+  
+  /* Apply a zebra-striping effect to alternate table rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+  }
+  
+  /* Highlight row on hover to improve readability */
+  tr:hover {
+    background-color: #ddd; /* Slightly darker background on hover */
+  }
+  
