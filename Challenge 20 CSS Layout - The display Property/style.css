@@ -1,0 +1,25 @@
+/* Styling for the block-level element, making it behave like an inline-block */
+.block-level {
+    display: inline-block; /* Changes block-level behavior to inline-block */
+    padding: 10px; /* Adds padding inside the element */
+    background-color: lightblue; /* Sets a light blue background for visibility */
+  }
+  
+  /* Styling for the inline element, making it behave like a block-level element */
+  .block {
+    display: block; /* Forces the inline element to behave as a block */
+    background-color: lightgreen; /* Sets a light green background for visibility */
+    margin: 10px 0; /* Adds vertical margin to create spacing */
+  }
+  
+  /* Hides the element completely using display: none */
+  .hidden {
+    display: none; /* Completely hides the element and removes it from layout */
+  }
+  
+  /* Styling for the image, ensuring it behaves as an inline element */
+  .inline-image {
+    display: inline; /* Ensures the image behaves inline with other content */
+    border: 2px solid black; /* Adds a black border for visibility */
+  }
+  
