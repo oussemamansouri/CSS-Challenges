@@ -21,13 +21,13 @@ Each example should:
 3. Use CSS to apply the corresponding `position` value and related properties (`top`, `left`, `bottom`, `right`) to each element.
 4. Ensure your page is responsive and visually clear.
 
+## Final Result:
+![Final Result Image](../Images/Challenge21Result.png)
+
 ### Bonus
 - Add a sticky header that sticks to the top when scrolled.
 - Add descriptive comments in your HTML and CSS code explaining each position type.
 
 ---
-
-### Example Output
-The page should contain a demonstration of each `position` value with visible differences in their behaviors.
 
 Good luck and happy coding!
