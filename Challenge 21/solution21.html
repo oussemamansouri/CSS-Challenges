@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position Property</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Static Position Example -->
+    <div class="container">
+        <div class="label">Static Position (Default)</div>
+        <!-- This element uses the default position: static -->
+        <div class="static">This element is positioned static.</div>
+    </div>
+
+    <!-- Relative Position Example -->
+    <div class="container">
+        <div class="label">Relative Position</div>
+        <!-- This element is positioned relative to its normal flow -->
+        <div class="relative">This element is positioned relative.</div>
+    </div>
+
+    <!-- Fixed Position Example -->
+    <div class="container">
+        <div class="label">Fixed Position</div>
+        <!-- This element is positioned relative to the viewport -->
+        <div class="fixed">This element is positioned fixed.</div>
+    </div>
+
+    <!-- Absolute Position Example -->
+    <div class="container">
+        <div class="label">Absolute Position</div>
+        <!-- Container acts as a reference for the absolute element -->
+        <div class="absolute-container">
+            <!-- This element is positioned relative to the .absolute-container -->
+            <div class="absolute">This element is positioned absolute.</div>
+        </div>
+    </div>
+
+    <!-- Sticky Position Example -->
+    <div class="container">
+        <div class="label">Sticky Position</div>
+        <!-- This element sticks to the top when scrolling -->
+        <div class="sticky">This element is positioned sticky.</div>
+    </div>
+</body>
+</html>
