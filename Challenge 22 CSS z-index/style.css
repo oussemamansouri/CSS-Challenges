@@ -1,0 +1,54 @@
+/* Container holding all the boxes */
+.container {
+    position: relative;
+  }
+  
+  /* Black Box: Positioned relative with the lowest stack order */
+  .black-box {
+    position: relative;
+    z-index: 1; /* Lowest stack order */
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+  }
+  
+  /* Gray Box: Positioned absolute with a middle stack order */
+  .gray-box {
+    position: absolute;
+    z-index: 2; /* Middle stack order */
+    background: lightgray;
+    height: 60px;
+    width: 70%;
+    left: 50px; /* Positioned 50px from the left */
+    top: 50px; /* Positioned 50px from the top */
+  }
+  
+  /* Green Box: Positioned absolute with the highest stack order */
+  .green-box {
+    position: absolute;
+    z-index: 3; /* Highest stack order */
+    background: lightgreen;
+    width: 35%;
+    height: 100px;
+    left: 270px; /* Positioned 270px from the left */
+    top: -15px; /* Positioned -15px from the top */
+  }
+  
+  /* Bonus: Add hover effects to highlight boxes */
+  
+  /* Change Black Box color to black and text to white on hover */
+  .black-box:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Change Gray Box background color to a darker gray on hover */
+  .gray-box:hover {
+    background-color: #bbb;
+  }
+  
+  /* Change Green Box background color to a bright green on hover */
+  .green-box:hover {
+    background-color: #00ff00;
+  }
+  
