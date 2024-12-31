@@ -47,8 +47,11 @@ Your output should look like this:
 - Remember, `z-index` only works on elements with a `position` value of `relative`, `absolute`, `fixed`, or `sticky`.
 - Experiment with different `z-index` values to see the effect.
 
+## Final Result:
+![Final Result Image](../Images/Challenge22Result.png)
+
 ---
 
-## Bonus
+### Bonus
 
 - Add a `hover` effect to change the color of each box.
