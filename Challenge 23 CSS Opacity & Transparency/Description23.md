@@ -28,5 +28,10 @@ In this challenge, you'll practice using the `opacity` property and explore how 
 - Use `opacity` for images and `rgba()` for the transparent box to prevent text opacity from being affected.
 - Experiment with different values for `opacity` to understand its impact.
 
+## Final Result:
+![Final Result Image](../Images/Challenge23Result.png)
+
+---
+
 ## Bonus Challenge
 Add a button inside the transparent box with its own hover effect that changes its background color and opacity.
