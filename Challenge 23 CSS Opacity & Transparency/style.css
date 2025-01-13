@@ -1,0 +1,40 @@
+/* Background container */
+.background {
+    background: url('./images/background4.png') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    border: 2px solid black;
+  }
+  
+  /* Semi-transparent box */
+  .transbox {
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.6); /* White with 60% opacity */
+    padding: 15px;
+    border: 1px solid black;
+  }
+  
+  /* Text inside the transparent box */
+  .transbox p {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Images with different opacity levels */
+  .images img {
+    width: 200px;
+    margin: 10px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Hover effect: Full opacity */
+  .images img:hover {
+    opacity: 1.0;
+  }
+  
+  /* Reversed hover effect for one specific image */
+  .images img.reverse-hover:hover {
+    opacity: 0.5;
+  }
+  
