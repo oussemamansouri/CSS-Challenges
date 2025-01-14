@@ -19,8 +19,10 @@ In this challenge, you will explore the `overflow` property in CSS. You will cre
 - Learn the difference between `overflow`, `overflow-x`, and `overflow-y`.
 - Implement scrollable areas within your web pages.
 
-## Example Output
+## Final Result:
+![Final Result Top Image](../Images/Challenge24ResultTop.png)
+![Final Result Bottom Image](../Images/Challenge24ResultBottom.png)
 
-Your output should demonstrate all the `overflow` property values, showing the effects of each on the container's content.
+---
 
 Good luck, and have fun!
