@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Overflow Challenge</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main heading for the page -->
+  <h1>CSS Overflow Examples</h1>
+
+  <!-- Example 1: Overflow set to "visible" -->
+  <div class="example-container">
+    <h2>Overflow: visible</h2>
+    <div class="box visible">
+      This content is very long and will overflow the box. You can see how it extends 
+      outside the container when overflow is set to "visible". The text is now much bigger 
+      to clearly demonstrate the overflow behavior.
+    </div>
+  </div>
+
+  <!-- Example 2: Overflow set to "hidden" -->
+  <div class="example-container">
+    <h2>Overflow: hidden</h2>
+    <div class="box hidden">
+      This content is very long and will overflow the box. However, it is clipped because 
+      overflow is set to "hidden". The text size has been increased for better visibility.
+    </div>
+  </div>
+
+  <!-- Example 3: Overflow set to "scroll" -->
+  <div class="example-container">
+    <h2>Overflow: scroll</h2>
+    <div class="box scroll">
+      This content is very long and will overflow the box. Scrollbars are added to let you view 
+      the entire content. The text size has been increased to highlight the effect.
+    </div>
+  </div>
+
+  <!-- Example 4: Overflow set to "auto" -->
+  <div class="example-container">
+    <h2>Overflow: auto</h2>
+    <div class="box auto">
+      This content is very long and will overflow the box. Scrollbars are added only if necessary.
+      The larger text helps demonstrate this behavior effectively.
+    </div>
+  </div>
+
+  <!-- Example 5: Separate control for horizontal and vertical overflow -->
+  <div class="example-container">
+    <h2>Overflow-x and Overflow-y</h2>
+    <div class="box xy">
+      This content is very long and will overflow the box. Here, we are controlling the overflow 
+      separately for horizontal and vertical directions using overflow-x and overflow-y. The larger 
+      text helps emphasize the effect.
+    </div>
+  </div>
+</body>
+</html>
