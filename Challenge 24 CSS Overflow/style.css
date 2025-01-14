@@ -1,0 +1,59 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Set font style */
+    line-height: 1.6; /* Improve readability with line spacing */
+    margin: 20px; /* Add spacing around the page */
+    background-color: #f4f4f4; /* Light gray background */
+  }
+  
+  /* Main heading styling */
+  h1 {
+    text-align: center; /* Center align the main heading */
+  }
+  
+  /* Styling for each example container */
+  .example-container {
+    margin-bottom: 40px; /* Add space between examples */
+  }
+  
+  /* Styling for subheadings */
+  h2 {
+    margin-bottom: 10px; /* Add space below subheadings */
+  }
+  
+  /* General styles for the overflow boxes */
+  .box {
+    width: 300px; /* Set a fixed width */
+    height: 100px; /* Set a fixed height */
+    padding: 10px; /* Add inner spacing */
+    border: 1px solid #ccc; /* Light gray border */
+    background-color: #fff; /* White background */
+    overflow: visible; /* Default overflow setting */
+  }
+  
+  /* Specific styles for overflow: visible */
+  .visible {
+    overflow: visible; /* Content is not clipped and overflows */
+  }
+  
+  /* Specific styles for overflow: hidden */
+  .hidden {
+    overflow: hidden; /* Content is clipped and invisible */
+  }
+  
+  /* Specific styles for overflow: scroll */
+  .scroll {
+    overflow: scroll; /* Content is clipped, and scrollbars are always visible */
+  }
+  
+  /* Specific styles for overflow: auto */
+  .auto {
+    overflow: auto; /* Scrollbars appear only when necessary */
+  }
+  
+  /* Specific styles for overflow-x and overflow-y */
+  .xy {
+    overflow-x: auto; /* Horizontal scrollbars appear only when necessary */
+    overflow-y: hidden; /* Vertical overflow is clipped */
+  }
+  
