@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    /* Set the base font and line height */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Floated Image */
+  .float-left {
+    /* Float the image to the left of the container */
+    float: left;
+    /* Add spacing between the image and the text */
+    margin: 0 15px 15px 0;
+    /* Sets the width of the image to 150px */
+    width: 150px;
+    /* Sets the height of the image to 150px */
+    height: 150px;
+  }
+  
+  /* Clear Property */
+  .clear-both {
+    /* Clear both left and right floats */
+    clear: both;
+  }
+  
+  /* Container for Boxes */
+  .container {
+    /* Add a border around the container */
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    /* Set a light background color */
+    background-color: #f9f9f9;
+  }
+  
+  /* Floated Boxes */
+  .box {
+    /* Float each box to the left */
+    float: left;
+    /* Set the width of each box to 30% */
+    width: 30%;
+    /* Add space between the boxes */
+    margin: 3.333%;
+    /* Add padding inside each box */
+    padding: 20px;
+    /* Set the background color of the boxes */
+    background-color: #007BFF;
+    /* Set the text color inside the boxes */
+    color: #fff;
+    /* Center align the text inside the boxes */
+    text-align: center;
+    /* Add rounded corners to the boxes */
+    border-radius: 5px;
+  }
+  
+  /* Remove the margin on the last box */
+  .box:last-child {
+    margin-right: 0;
+  }
+  
+  /* Clearfix Hack */
+  .container::after {
+    /* Clear both left and right floats */
+    content: "";
+    clear: both;
+    /* Add a block to contain the floated elements */
+    display: table;
+  }
+  
