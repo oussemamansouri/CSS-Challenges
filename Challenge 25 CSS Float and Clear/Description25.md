@@ -22,6 +22,8 @@ Add some styles to make the layout visually appealing.
 - An image floating to the left of a paragraph.
 - A second paragraph cleared below the image.
 - A container with three floated boxes aligned horizontally, cleared using the clearfix hack.
+![Final Result Image](../Images/Challenge25Result.png)
+
 
 ## Deliverables
 - A `.html` file with the solution.
