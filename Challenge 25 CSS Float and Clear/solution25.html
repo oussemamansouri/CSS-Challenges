@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Float and Clear Challenge</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Content section containing a floated image and text -->
+  <div class="content">
+    <!-- Floated image aligned to the left -->
+    <img src="./image/background2.png" alt="Image" class="float-left">
+    <!-- Text wrapping around the floated image -->
+    <p>
+      This is a paragraph of text that wraps around the floated image. The `float` property is used to position this image to the left of the text.
+    </p>
+    <!-- Paragraph cleared so it appears below the floated image -->
+    <p class="clear-both">
+      This paragraph is cleared using the `clear` property so that it does not float next to the image. It appears below the floated image.
+    </p>
+  </div>
+
+  <!-- Container with multiple floated boxes -->
+  <div class="container clearfix">
+    <!-- Box 1 floated to the left -->
+    <div class="box">Box 1</div>
+    <!-- Box 2 floated to the left -->
+    <div class="box">Box 2</div>
+    <!-- Box 3 floated to the left -->
+    <div class="box">Box 3</div>
+  </div>
+</body>
+</html>
