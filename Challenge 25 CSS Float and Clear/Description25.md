@@ -1,4 +1,4 @@
-# CSS Challenge: Float and Clear
+# CSS Challenge 25: Float and Clear
 
 ## Objective
 Create a simple webpage that demonstrates the use of the `float` and `clear` properties along with a clearfix hack.
