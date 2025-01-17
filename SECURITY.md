@@ -16,7 +16,7 @@ This policy applies to all components of the CSS Challenges project, including:
 
 **Reporting a Vulnerability**
 
-We appreciate responsible security disclosures. If you believe you have found a security vulnerability in the CSS Challenges project, please report it to us privately by emailing us at [[email address removed]].
+We appreciate responsible security disclosures. If you believe you have found a security vulnerability in the CSS Challenges project, please report it to us privately by emailing us at (oussama.mansouri@issatm.ucar.tn).
 
 **Please include the following information in your report:**
 
