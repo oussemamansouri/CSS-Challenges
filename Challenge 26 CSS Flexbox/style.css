@@ -1,0 +1,84 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif; /* Set a default font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Ensure consistent box model */
+  }
+  
+  /* Container Styles */
+  .pricing-container {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px; /* Add space between the cards */
+    padding: 20px; /* Add padding around the container */
+  }
+  
+  /* Card Styles */
+  .pricing-card {
+    background-color: #f4f4f4; /* Light gray background */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add spacing inside the card */
+    width: 300px; /* Fixed width for each card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+  }
+  
+  /* Scale the card slightly on hover */
+  .pricing-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Title and Price */
+  .pricing-card h2 {
+    font-size: 1.5rem; /* Slightly larger font for the title */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  .price {
+    font-size: 2rem; /* Larger font size for the price */
+    color: #2c3e50; /* Darker text color for emphasis */
+    margin: 10px 0; /* Space above and below the price */
+  }
+  
+  /* Features List */
+  .pricing-card ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 15px 0; /* Space around the list */
+  }
+  
+  .pricing-card li {
+    margin: 5px 0; /* Space between features */
+    font-size: 0.9rem; /* Slightly smaller font for features */
+  }
+  
+  /* Button */
+  .pricing-card button {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Add spacing inside the button */
+    font-size: 1rem; /* Standard font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Change background color on hover */
+  .pricing-card button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .pricing-container {
+      flex-direction: column; /* Stack the cards vertically */
+      align-items: stretch; /* Stretch cards to fit the width */
+    }
+  }
+  
