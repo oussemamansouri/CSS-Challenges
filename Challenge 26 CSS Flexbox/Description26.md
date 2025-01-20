@@ -42,6 +42,10 @@ Create a responsive pricing table using **CSS Flexbox**. The table should featur
 ## Bonus
 - Add smooth animations when a user hovers over a pricing card.
 
+
+### Example Layout
+![Example Layout Image](../Images/Challenge26Result.png)
+
 ---
 
 ## Files
