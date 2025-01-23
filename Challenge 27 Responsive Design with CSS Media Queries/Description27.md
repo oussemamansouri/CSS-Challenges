@@ -1,4 +1,4 @@
-# Challenge: Responsive Design with CSS Media Queries
+# Challenge 27: Responsive Design with CSS Media Queries
 
 In this challenge, you'll create a responsive web page that adjusts its layout and styles based on the width of the viewport. The goal is to practice using CSS media queries to create a responsive design.
 
@@ -23,11 +23,10 @@ In this challenge, you'll create a responsive web page that adjusts its layout a
 
 3. Use media queries to define styles for screens smaller than 480px and 480px or wider.
 
-## Example
+### Example Layout
+![Example Layout Image](../Images/Challenge27Result.png)
 
-Here’s an example of what the page might look like:
-- Small screens: A vertical navigation menu with a red background.
-- Large screens: A horizontal navigation menu with a blue background.
+---
 
 ## Bonus
 
