@@ -1,0 +1,100 @@
+/* General styles for all screen sizes */
+
+/* Set global styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Use a clean sans-serif font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 1em 0; /* Add padding around the header */
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 30px; /* Set the margin to 30px */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Navigation links - default to vertical layout */
+  nav ul li {
+    display: block; /* Display links as blocks (stacked vertically) */
+    padding: 10px; /* Add padding inside each link */
+    text-align: center; /* Center-align the text */
+    background-color: #555; /* Dark gray background for links */
+    margin: 5px 0; /* Add vertical spacing between links */
+  }
+  
+  nav ul li a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px; /* Add padding inside the main content area */
+    background-color: lightcoral; /* Red background color for smaller screens */
+    color: white; /* White text color for contrast */
+    text-align: center; /* Center-align the text */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    text-align: center; /* Center-align the text */
+    padding: 1em 0; /* Add padding around the footer */
+  }
+  
+  /* Media queries for responsive design */
+  
+  /* Styles for screens 480px or wider */
+  @media screen and (min-width: 480px) {
+    /* Change the background color for larger screens */
+    body {
+      background-color: lightblue;
+    }
+  
+    /* Adjust navigation menu to be horizontal */
+    nav ul {
+      display: flex; /* Use flexbox to arrange items horizontally */
+      justify-content: center; /* Center-align the navigation links */
+    }
+  
+    nav ul li {
+      display: inline; /* Inline display for horizontal layout */
+      margin: 0 10px; /* Add horizontal spacing between links */
+    }
+  
+    nav ul li a {
+      padding: 10px 15px; /* Add padding around each link */
+    }
+  
+    /* Center the main content and change its background color */
+    main {
+      max-width: 800px; /* Set a maximum width for the content */
+      margin: 20px auto; /* Center the content horizontally */
+      background-color: white; /* White background for readability */
+      color: black; /* Black text for contrast */
+    }
+  }
+  
+  /* Bonus: Styles for screens 768px or wider */
+  @media screen and (min-width: 768px) {
+    /* Increase font size for the header on larger screens */
+    header {
+      font-size: 2em;
+    }
+  
+    /* Increase font size for the footer on larger screens */
+    footer {
+      font-size: 1.2em;
+    }
+  }
+  
