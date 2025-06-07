@@ -26,12 +26,13 @@ Your task is to create a simple **3x3 CSS Grid layout** that represents a basic 
 - Use grid properties like `grid-template-columns`, `grid-template-rows`, and `gap`.
 - Apply styling and alignment techniques within a grid.
 
+### Example Layout
+![Example Layout Image](../Images/Challenge28Result.png)
+
+---
+
 ## 💡 Bonus
 
 - Add hover effects that slightly scale the sections.
 - Make the layout responsive so it stacks on smaller screens (e.g., using `grid-template-areas` or media queries).
 
-## 🚀 Files
-
-- `solution.html`
-- `style.css`
