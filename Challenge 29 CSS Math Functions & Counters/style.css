@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+.boxes {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.box {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: clamp(1rem, 2vw, 2rem);
+  flex: 1 1 calc(33.33% - 1rem);
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  border-radius: 8px;
+  min-width: min(250px, 90%);
+  max-width: max(200px, 33%);
+}
+
+.steps h2 {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  margin-bottom: 1rem;
+}
+
+.step-list {
+  counter-reset: step;
+  list-style: none;
+  padding: 0;
+}
+
+.step-list li {
+  counter-increment: step;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.step-list li::before {
+  content: "Step " counter(step) ": ";
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  color: #4a90e2;
+}
